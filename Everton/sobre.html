@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head> <!-- Comandos que o brower executa antes de carregar a página. -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Everton | Sobre</title>
+        <link href="img/logo-menor.jpg" rel="icon">
+    
+        <!-- Link pro CSS -->
+        <link href="css/sobre.css" rel="stylesheet">
+        
+        <!-- Link pro JS -->
+        <!-- Qualquer outro arquivo, script etc. -->
+    </head>
+
+    <body> <!-- corpo do site, a parte visível. -->
+        <img src="img/logo-menor.jpg">
+        
+        <!-- O título da minha página. -->
+        <h1 class="titulo">Sobre Mim</h1>
+
+        <p class="introducao" id="introducao">
+            Sou desenvolvedor de jogos, com um vasto portifólio de produtos lançados no mercado
+            e bla bla bla... Confira nossa <a href="index.html#bookmark-inicial">história</a> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident 
+            nostrum, quibusdam non quod perspiciatis quae totam modi obcaecati sit aperiam impedit 
+            deleniti quisquam? Aliquid quam voluptas dolor porro magni placeat.
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi sed officiis eos culpa 
+            quaerat facere animi quos qui illo tempore, nobis quidem voluptatem iusto in quibusdam earum 
+            eligendi sequi accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur 
+            quo quia commodi, voluptates odit dignissimos ad reiciendis incidunt temporibus, error dolor ea 
+            non sequi in! Molestias sunt numquam excepturi obcaecati.
+        </p>
+
+        
+        <figure class="meu-escritorio"> <!-- Tag que permite inserção de imagens com legenda. -->
+            <img src="img/office.jpg" alt="Uma foto do meu escritório.">
+            <figcaption>
+                <em>Uma foto do meu escritório chique.</em>
+            </figcaption>
+        </figure>
+
+        <p>
+            <a href="https://www.sp.senac.br/senac-aclimacao">
+                Meu escritório está localizado em Washington, DC, nos EUA,
+            </a> 
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Blanditiis labore at, quia delectus inventore molestias sequi eius autem, incidunt 
+            sint quam eveniet saepe excepturi ratione veritatis in, esse ut non! Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Recusandae dolores ipsum non eligendi cumque totam ex delectus quisquam repellendus debitis 
+            eos esse autem, accusamus veniam? Accusantium excepturi delectus debitis laboriosam!
+        </p>
+
+        <h2 id="historia" class="subtitulo">História</h2>
+
+        <figure class="minha-mesa">
+            <img src="img/old-office.jpg">
+            <figcaption>
+                <em> "Greatness in small begginings." - Drake, Nathan.</em>
+            </figcaption>
+        </figure>
+
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit ipsum magnam id. Iste quasi, quae quam 
+            laudantium tempore debitis sit commodi itaque dignissimos accusantium alias veniam veritatis possimus minima? Lorem, 
+            ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur atque, quibusdam sequi fugit soluta minus inventore 
+            excepturi! Exercitationem, repellat omnis enim perferendis obcaecati eaque dolorem vero magni dicta animi.
+        </p>
+
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit ipsum magnam id. Iste quasi, quae quam 
+            laudantium tempore debitis sit commodi itaque dignissimos accusantium alias veniam veritatis possimus minima? Lorem, 
+            ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur atque, quibusdam sequi fugit soluta minus inventore 
+            excepturi! Exercitationem, repellat omnis enim perferendis obcaecati eaque dolorem vero magni dicta animi.
+        </p>
+
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit ipsum magnam id. Iste quasi, quae quam 
+            laudantium tempore debitis sit commodi itaque dignissimos accusantium alias veniam veritatis possimus minima? Lorem, 
+            ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur atque, quibusdam sequi fugit soluta minus inventore 
+            excepturi! Exercitationem, repellat omnis enim perferendis obcaecati eaque dolorem vero magni dicta animi.
+        </p>
+
+        <h2 class="subtitulo">Nossos Diferenciais</h2>
+        <!-- Lista Não-Ordenada -->
+        <ul>
+            <li>Atendimento 24h</li>
+            <li>Ótima localização</li>
+            <li>Funcionários extremamente capacitados</li>
+            <li>Pão de queijo a vontade!</li>
+        </ul>
+
+        <h2 class="titulo">Contato</h2>
+
+        <div class="contato__secao">
+            <h3 class="contato__subtitulo">Correspondência</h3>
+            <small>Todos os dias, horário comercial (9h as 18h)</small>
+            <address class="contato__info">
+                Unicórnio Games
+                <br><!-- Quebra de linha, ou "pular linha"-->
+                Rua Pires da Mota, Número 852
+                <br>
+                Aclimação
+                <br>
+                São Paulo - SP
+            </address>
+        </div>
+
+        <div id="contato" class="contato__secao contato__secao--telefone">
+            <h3 class="contato__subtitulo">Telefones</h3>
+            <small>Todos os dias, horário comercial (9h as 18h)</small>
+            <dl class="contato__info">
+                <div>
+                    <dt class="contato__info-titulo">Pessoa Física:</dt>
+                    <dd class="contato__info-descricao"><a href="tel://11-3333-4949">(11) 3333-4949</a></dd>
+                </div>
+                
+                <div>
+                    <dt class="contato__info-titulo">Pessoa Jurídica:</dt>
+                    <dd class="contato__info-descricao"><a href="tel://11-4444-5050">(11) 4444-5050</a></dd>
+                </div>    
+            </dl>
+        </div>
+
+        <footer class="rodape">
+            <img src="img/logo-menor.jpg" alt="Logo do Site" class="rodape__logo">
+            <p class="rodape__copyright">&copy; Copyright Everton</p>
+        </footer>
+    </body>
+</html>
+
